@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <title>
+      추천 리스트
+    </title>
+  </head>
+  <body>
+    <h1>추천 게임 TOP5</h1>
+    {% for item in title_list %}
+    
+    <p>{{ loop.index }}. {{ item }}</p>
+    {% endfor %}
+  </body>
+</html>
